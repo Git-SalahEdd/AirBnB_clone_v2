@@ -18,6 +18,7 @@ def hbnb():
     ''' /hbnb: displays HBNB '''
     return "HBNB"
 
+
 @app.route("/c/<text>")
 def C_text(text):
     ''' /c/<text>: display C followed by the value of the text variable '''
